@@ -75,6 +75,8 @@
     noButton.addEventListener('click', function() {
       if (noClickCount < 5) {
         noClickCount++;
+        valentinepoem.textContent = "";
+        greet.textContent = "";
         imageDisplay.src = imagePaths[noClickCount];
         buttonHeight += 35;
         buttonWidth += 35;
